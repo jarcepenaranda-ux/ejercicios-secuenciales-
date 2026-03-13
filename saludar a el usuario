@@ -1,0 +1,8 @@
+// programa para que pregunte el usuario y el nombre y luego lo salude 
+proceso saludo 
+   escribir " programa que te saluda "
+   escribir " dijite su nombre"
+   leer nombre 
+   escribir " hola mi querido estudiante de progracion",nombre,"bienvedio a un curso lleno de dolores de cabeza "
+
+   FINPROCESO
