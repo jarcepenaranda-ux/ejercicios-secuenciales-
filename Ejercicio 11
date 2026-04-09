@@ -1,0 +1,13 @@
+Proceso DistanciaEntreNumeros
+    Definir num1, num2, distancia Como Real
+    
+    Escribir "Ingrese el primer numero:"
+    Leer num1
+    
+    Escribir "Ingrese el segundo numero:"
+    Leer num2
+    
+    distancia <- Abs(num1 - num2)
+    
+    Escribir "La distancia entre los numeros es: ", distancia
+FinProceso
