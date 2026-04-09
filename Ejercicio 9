@@ -1,0 +1,12 @@
+Proceso DescuentoTienda
+    Definir totalCompra, descuento, totalPagar Como Real
+    
+    Escribir "Digite el total de la compra:"
+    Leer totalCompra
+    
+    descuento <- totalCompra * 0.15
+    totalPagar <- totalCompra - descuento
+    
+    Escribir "Descuento aplicado: ", descuento
+    Escribir "Total a pagar: ", totalPagar
+FinProceso
