@@ -1,0 +1,13 @@
+Proceso ConvertirSegundos
+    Definir segundos, horas, minutos, segundosRestantes Como Entero
+    
+    Escribir "Digite la cantidad de segundos:"
+    Leer segundos
+    
+    horas <- trunc(segundos / 3600)
+    minutos <- trunc((segundos - (horas * 3600)) / 60)
+    segundosRestantes <- segundos - (horas * 3600) - (minutos * 60)
+    
+    Escribir "Resultado:"
+    Escribir horas, " horas, ", minutos, " minutos y ", segundosRestantes, " segundos"
+FinProceso
