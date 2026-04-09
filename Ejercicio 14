@@ -1,0 +1,16 @@
+Proceso InvertirNumero
+    Definir num, invertido, digito Como Entero
+    
+    Escribir "Ingrese un numero:"
+    Leer num
+    
+    invertido <- 0
+    
+    Mientras num > 0 Hacer
+        digito <- num MOD 10
+        invertido <- invertido * 10 + digito
+        num <- trunc(num / 10)
+    FinMientras
+    
+    Escribir "Numero invertido: ", invertido
+FinProceso
