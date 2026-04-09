@@ -1,0 +1,21 @@
+Proceso CalificacionFinal
+    Definir nota1, nota2, nota3, examen, trabajo Como Real
+    Definir promedio, resultado Como Real
+    
+    Escribir "Ingrese la nota 1:"
+    Leer nota1
+    Escribir "Ingrese la nota 2:"
+    Leer nota2
+    Escribir "Ingrese la nota 3:"
+    Leer nota3
+    Escribir "Ingrese la nota del examen final:"
+    Leer examen
+    Escribir "Ingrese la nota del trabajo final:"
+    Leer trabajo
+    
+    promedio <- (nota1 + nota2 + nota3) / 3
+    
+    resultado <- (promedio * 0.55) + (examen * 0.30) + (trabajo * 0.15)
+    
+    Escribir "La calificacion final es: ", resultado
+FinProceso
